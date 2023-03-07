@@ -23,5 +23,5 @@ formatted_population = locale.format_string('%d', population, grouping=True)
 formatted_area = locale.format_string('%d', area, grouping=True)
 
 print(f'The population of {chosen_country} is {formatted_population} people.')
-print(f'{chosen_country} has an area of {area} Km.')
+print(f'{chosen_country} has an area of {formatted_area} Km.')
 print(f'Population density: {(population/area):.2f} people per square kilometer.')
